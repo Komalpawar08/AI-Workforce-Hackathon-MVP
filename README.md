@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Northstar — Secure AI Workforce (Hackathon MVP)
 
 A working MVP for the “Build an AI Workforce for Businesses” challenge. It takes a natural-language lead-operations request, orchestrates five specialist agents, persists CRM updates and execution history to PostgreSQL, drafts customer follow-ups, puts outbound communication behind a human approval gate, and surfaces the work in a dashboard.
@@ -119,3 +120,7 @@ npm run smoke
 ## Security notes before production
 
 This is a hackathon-ready MVP, not a certified enterprise deployment. Before using real customer data, add HTTPS termination, managed secret storage, persistent rate limiting, CSRF/origin policy aligned to the deployed proxy, database least-privilege credentials, formal backups, monitoring, audit-log export to an append-only system, data retention controls, security review, and organization-level tenant administration. Re-check permissions on every new tool/integration. Never let a model return arbitrary SQL to execute.
+=======
+# AI-Workforce-Hackathon-MVP
+AI Workforce Hackathon MVP - Secure Operations Platform
+>>>>>>> 2d0ca2c2eb7ca10b900581a8e24241446769589f
